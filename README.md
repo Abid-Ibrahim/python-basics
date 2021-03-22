@@ -9,14 +9,17 @@
   - Python variables
   - Python datatypes
   - Operators
+  - Practice session
 
 - Week 2 :dart:
   - Strings
   - Operations on strings
+  - Quiz session
  
 - Week 3 :dart:
   - Lists
   - Tuples
+  - Practice session
 
 - Week 4 :dart:
   - Sets
