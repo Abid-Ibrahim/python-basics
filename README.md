@@ -1,6 +1,6 @@
 ![banner](https://user-images.githubusercontent.com/55238388/111981947-5f62d080-8b2e-11eb-98a8-e463fddf7a23.jpg)
 
-<h2 align="center">Python Basics</h2>
+<h1 align="center">Python Basics</h1>
 
 ## Course structure :book:
 - Week 1 :dart:
