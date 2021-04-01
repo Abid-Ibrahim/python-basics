@@ -14,7 +14,7 @@ It is used for:
 - software development,
   mathematics,
 - system scripting.
-- 
+-
 ### What can Python do?
 
 - Python can be used on a server to create web applications.
@@ -35,3 +35,29 @@ It is used for:
 
 [Download python here](http://www.python.org/downloads/)
 
+## syntax
+
+### Python Syntax compared to other programming languages
+
+- Python was designed for readability, and has some similarities to the English language with influence from mathematics.
+- Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
+- Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes.
+  Other programming languages often - use curly-brackets for this purpose.
+
+Lets begin with the usual way:
+
+print("Hello world!")
+
+### Python Indentation
+
+Indentation refers to the spaces at the beginning of a code line.
+Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+Python uses indentation to indicate a block of code.
+
+Example:
+
+if 5 > 2:
+  print("No indentation error")
+
+if 5 > 2:
+print("Indentation error")
