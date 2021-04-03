@@ -1,6 +1,17 @@
 #!/bin/python3
 
 def countingValleys(steps, path):
+    sealevel = valley = 0
+    for i in path:
+        if i == "U":
+            sealevel += 1
+        else:
+            sealevel -= 1
+        if i == "U" and sealevel == 0:
+            valley += 1
+    print(valley)
+
+
 
 
 
@@ -17,5 +28,7 @@ expected output : 2
 '''
 
 
-#countingValleys(8, "UDDDUDUU")
-#countingValleys(12,"DDUUDDUDUUUD")
+countingValleys(8, "UDDDUDUU")
+countingValleys(12,"DDUUDDUDUUUD")
+
+
