@@ -48,16 +48,83 @@ Lets begin with the usual way:
 
 print("Hello world!")
 
-### Python Indentation
+## Python Indentation
 
 Indentation refers to the spaces at the beginning of a code line.
 Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
 Python uses indentation to indicate a block of code.
 
 Example:
+```
 
 if 5 > 2:
   print("No indentation error")
 
+```
+```
+
 if 5 > 2:
 print("Indentation error")
+
+```
+
+
+- The number of spaces is up to you as a programmer, but it has to be at least one.
+
+```
+
+if 5 > 2:
+ print("Five is greater than two!") 
+if 5 > 2:
+        print("Five is greater than two!") 
+
+```   
+
+- You have to use the same number of spaces in the same block of code, otherwise Python will give you an error:
+
+``` 
+
+if 5 > 2:
+ print("Five is greater than two!")
+        print("Five is greater than two!")
+
+``` 
+
+## Python comments
+
+```
+#print(x)
+
+"""
+this is
+a multiple line
+comment
+
+"""
+
+```
+
+
+## Python variables
+
+In Python, variables are created when you assign a value to it. Variables do not need to be declared with any particular type, and can even change type after they have been set.
+
+```
+x = 4       # x is of type int
+x = "Sally" # x is now of type str
+print(x)
+
+```
+
+### Casting
+
+Specify a Variable Type
+There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.
+
+Casting in python is therefore done using constructor functions:
+
+- int() - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal - (providing the string represents a whole number)
+
+- float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a - float or an integer)
+
+- str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
