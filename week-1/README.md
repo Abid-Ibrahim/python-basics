@@ -128,3 +128,61 @@ Casting in python is therefore done using constructor functions:
 - float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a - float or an integer)
 
 - str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
+
+
+## Other stuff
+
+- String variables can be declared either by using single or double quotes
+- Variable names are case-sensitive.
+
+### Rules
+
+- A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
+- A variable name must start with a letter or the underscore character
+- A variable name cannot start with a number
+- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+- Variable names are case-sensitive (age, Age and AGE are three different variables)
+
+### Multi Words Variable Names
+
+Variable names with more than one word can be difficult to read.
+There are several techniques you can use to make them more readable:
+
+- Camel Case
+
+```
+myVariableName = "John"
+```
+
+- Pascal Case
+
+```
+MyVariableName = "John"
+```
+
+- Snake Case
+
+```
+my_variable_name = "John"
+```
+
+### Many Values to Multiple Variables
+
+```
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+```
+
+### One Value to Multiple Variables
+And you can assign the same value to multiple variables in one line:
+
+```
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+```
+
+
