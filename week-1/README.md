@@ -14,7 +14,7 @@ It is used for:
 - software development,
   mathematics,
 - system scripting.
--
+
 ### What can Python do?
 
 - Python can be used on a server to create web applications.
