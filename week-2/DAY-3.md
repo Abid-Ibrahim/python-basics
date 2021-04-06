@@ -119,13 +119,13 @@ In programming, data type is an important concept. Variables can store data of d
 <img src="https://static.javatpoint.com/python/images/python-data-types.png"/>
 </div>
 <br>
-<img src="datatypes.png"/>
+<img src="datatypes.PNG"/>
 <br>
 
 ## Setting the Specific Data Type
 
 <br>
-<img src="datatype2.png"/>
+<img src="datatype2.PNG"/>
 
 ## Python strings
 
