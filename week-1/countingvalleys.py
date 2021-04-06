@@ -1,4 +1,4 @@
-#!/bin/python3
+
 
 def countingValleys(steps, path):
     sealevel = valley = 0
