@@ -347,6 +347,7 @@ print(thislist)
 ```
 
 ## Insert Items
+
 To insert a new list item, without replacing any of the existing values, we can use the insert() method.
 
 The ```insert()``` method inserts an item at the specified index:
@@ -361,6 +362,7 @@ print(thislist)
 ```
 
 ## Append Items
+
 To add an item to the end of the list, use the append() method:
 
 Example
@@ -373,6 +375,7 @@ print(thislist)
 ```
 
 ## Insert Items
+
 To insert a list item at a specified index, use the insert() method.
 
 The insert() method inserts an item at the specified index:
@@ -388,6 +391,7 @@ print(thislist)
 Note: As a result of the examples above, the lists will now contain 4 items.
 
 ## Extend List
+
 To append elements from another list to the current list, use the extend() method.
 
 Example
@@ -416,7 +420,6 @@ print(thislist)
 ```
 
 ## List Comprehension
-
 
 List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
 
@@ -449,7 +452,7 @@ newlist = [x for x in fruits if "a" in x]
 print(newlist)
 ```
 
-The Syntax
+### The Syntax
 
 ```
 newlist = [expression for item in iterable if condition == True]
