@@ -295,6 +295,126 @@ if "apple" in thislist:
   print("Yes, 'apple' is in the fruits list")
 ```
 
+
+## Change Item Value
+
+To change the value of a specific item, refer to the index number:
+
+Example
+Change the second item:
+
+```
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
+```
+
+## Change a Range of Item Values
+
+To change the value of items within a specific range, define a list with the new values, and refer to the range of index numbers where you want to insert the new values:
+
+Example
+Change the values "banana" and "cherry" with the values "blackcurrant" and "watermelon":
+
+```
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+thislist[1:3] = ["blackcurrant", "watermelon"]
+print(thislist)
+```
+If you insert more items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly:
+
+Example
+Change the second value by replacing it with two new values:
+
+```
+thislist = ["apple", "banana", "cherry"]
+thislist[1:2] = ["blackcurrant", "watermelon"]
+print(thislist)
+```
+```
+Note: The length of the list will change when the number of items inserted does not match the number of items replaced.
+```
+
+If you insert less items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly:
+
+Example
+Change the second and third value by replacing it with one value:
+
+```
+thislist = ["apple", "banana", "cherry"]
+thislist[1:3] = ["watermelon"]
+print(thislist)
+```
+
+## Insert Items
+To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+
+The ```insert()``` method inserts an item at the specified index:
+
+Example
+Insert "watermelon" as the third item:
+
+```
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(2, "watermelon")
+print(thislist)
+```
+
+## Append Items
+To add an item to the end of the list, use the append() method:
+
+Example
+Using the append() method to append an item:
+
+```
+thislist = ["apple", "banana", "cherry"]
+thislist.append("orange")
+print(thislist)
+```
+
+## Insert Items
+To insert a list item at a specified index, use the insert() method.
+
+The insert() method inserts an item at the specified index:
+
+Example
+Insert an item as the second position:
+
+```
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+print(thislist)
+```
+Note: As a result of the examples above, the lists will now contain 4 items.
+
+## Extend List
+To append elements from another list to the current list, use the extend() method.
+
+Example
+Add the elements of tropical to thislist:
+
+```
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical)
+print(thislist)
+```
+
+The elements will be added to the end of the list.
+
+Add Any Iterable
+The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries etc.).
+
+Example
+Add elements of a tuple to a list:
+
+```
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
+print(thislist)
+```
+
 ## Week 2 assignment:
 
 [learn about operators in python](https://www.w3schools.com/python/python_operators.asp)
