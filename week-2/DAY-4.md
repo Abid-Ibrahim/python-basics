@@ -218,6 +218,7 @@ list1 = ["abc", 34, True, 40, "male"]
 Week 2 assignment:
 
 [learn about operators in python](https://www.w3schools.com/python/python_operators.asp)
+
 [Exercise on python strings](https://www.w3schools.com/python/exercise.asp?filename=exercise_strings1)
 
 
