@@ -1,9 +1,7 @@
-def checkstr():
-    sen = input("Enter the sentence:\t")
-    word = input("Enter the word to searched in sentence: ")
-    if word in sen:
-        print("Yes, {} is present in {}".format(word,sen)  )
-    else:
-        print("word not present")
-
-checkstr()
+def addlist():
+    fruits = ["Apple", "Orange", "Mango"]
+    fruit = input("Enter the fruit name:\t")
+    fruits.append(fruit)
+    print("You have succesfully added \"{}\" into the list".format(fruit))
+    print(fruits)
+addlist()
